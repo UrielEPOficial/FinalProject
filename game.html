@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Game | Uriel Espinoza</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <style media="screen">
+body{
+            background-color: #000000;
+        }
+
+        </style>
+
+    </head>
+    
+    <body>
+        
+        <video id="background-video" autoplay loop muted poster="img/game.mp4">
+            <source src="img/game.mp4" type="video/mp4">
+            </video>
+
+        <header class="header">
+            <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="Logotipo">
+            </a>
+        </header>
+       
+        <nav class="navegacion">
+            <a class="navegacion__enlace" href="main.html">Main |</a>
+            <a class="navegacion__enlace" href="index.html">Music: Sergio Piña |</a>
+            <a class="navegacion__enlace" href="photo.html">Photography |</a>
+            <a class="navegacion__enlace navegacion__enlace--activo" href="game.html">Game |</a>
+            <a class="navegacion__enlace" href="color.html">Color Generator |</a>
+            <a class="navegacion__enlace" href="Contacto.html">Contact</a>
+        </nav>
+
+        <h1>Rock | Paper | Scissors</h1>
+        <div id="campo-batalla" class="campo-batalla">
+            <div id="img-ataque-jugador" class="caja-batala"><!--<img class="img-batalla" src="assets/Papel.PNG" alt="">--></div>
+            <div class="caja-batala"><p class="text-mensajes">VS</p></div>
+            <div id="img-ataque-pc" class="caja-batala"><!--<img class="img-batalla" src="assets/Piedra.PNG" alt="">--></div>
+        </div>
+        <div>
+            <p id="msj-batalla" class="text-mensajes"> </p>
+        </div>
+        <h2>Make your choice</h2>
+        <div>
+            <img id="btn-piedra" class="btn-ataques" src="assets/Piedra.PNG" alt="">
+            <img id="btn-papel" class="btn-ataques" src="assets/Papel.PNG" alt="">
+            <img id="btn-tijeras" class="btn-ataques" src="assets/Tijeras.PNG" alt="">
+        </div>
+        <script src="appgame.js"></script>
+        <footer class="footer">
+            <p class="footer__texto">Uriel Espinoza Photograph - All Rights Reserved © 2022.</p>
+        </footer>
+    </body>
+</html>

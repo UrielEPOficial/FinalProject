@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Large Fashion Glasses </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" title="estilos del formulario" media= "screen,print">
+    <script src="validar_1.js"></script>
+    
+</head>
+<header class="header">
+    <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="Logotipo">
+    </a>
+</header>
+<nav class="navegacion">
+    <a class="navegacion__enlace" href="main.html">Main |</a>
+    <a class="navegacion__enlace" href="index.html">Music: Sergio Piña |</a>
+    <a class="navegacion__enlace" href="photo.html">Photography |</a>
+    <a class="navegacion__enlace" href="game.html">Game |</a>
+    <a class="navegacion__enlace" href="color.html">Color Generator |</a>
+    <a class="navegacion__enlace navegacion__enlace--activo" href="Contacto.html">Contact</a>
+</nav>
+<body>
+    <video id="background-video" autoplay loop muted poster="img/video.mp4">
+        <source src="img/video.mp4" type="video/mp4">
+        </video>
+    <!-- <h1></h1> -->
+    <form action="registrar.php" method="post" class="form-register" onsubmit="validar()">
+        <h2 class="form__titulo"></h2>
+        <img class="locker" src="candado.png" alt="">
+        <h3 class="texto1">CLIENT SERVICES</h3>
+        <div class="contenedor-inputs">
+            <input type="text" id="nombre" name="nombre" placeholder="Enter your first name" class="input-48">
+            <input type="text" id="apellidos" name="apellidos" placeholder="Enter your last name" class="input-48">
+            <input type="text" id="correo" name="correo" placeholder="Enter your email adress" class="input-100">
+            <input type="number" id="telefono" name="telefono" placeholder="Enter your phone number" class="input-100">
+            <input type="text" id="comentario" name="comentario" placeholder="Add an extra comement" class="input-100">
+            <input type="submit" name="boton" value="SUBMIT" class="btn-enviar">
+
+        </div>
+    </form>
+
+    <footer class="footer">
+        <p class="footer__texto">Uriel Espinoza Photograph - All Rights Reserved © 2022.</p>
+    </footer>
+
+    
+</body>
+</html>
