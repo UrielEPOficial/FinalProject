@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 
-    <title>Colors | Uriel Espinoza Photograph</title>
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="stylesheet" href="css/normalize.css">
+    <title>Colors | Uriel Espinoza</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/stylee.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <!--Google Font-->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
     background-color: #ffffff;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
+    top: 65%;
     left: 50%;
     width: 380px;
     padding: 20px 0;
@@ -88,8 +88,8 @@ span{
   <a class="navegacion__enlace" href="Contacto.html">Contact</a>
 </nav>
 
-   <div class="container">
-<div id="outputs"></div>
+    <div class="container">
+        <div id="outputs"></div>
 
        <div class="wrapper">
            R<input type="range" min="0" max="255" value="0" id="red" oninput="colors()">
@@ -103,7 +103,7 @@ span{
         <span id="output">rgb(0, 0, 0)</span>
 
         <script>
-let outputs = document.getElementById("outputs");
+        let outputs = document.getElementById("outputs");
 
             function colors(){
 
@@ -117,7 +117,7 @@ let outputs = document.getElementById("outputs");
                 document.getElementById("output").innerHTML =  'rgb(' + red + ',' + green + ',' + blue + ')' ;
             }
         </script>
-   </div>
+    </div>
    
 </body>
 
